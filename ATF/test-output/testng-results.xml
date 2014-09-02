@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12766" started-at="2014-08-12T18:39:27Z" finished-at="2014-08-12T18:39:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12766" started-at="2014-08-12T18:39:27Z" finished-at="2014-08-12T18:39:40Z">
+      <class name="com.selenium.atf.tests.FirstTest">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:com.selenium.atf.tests.FirstTest@62725296]" name="SetUp" is-config="true" duration-ms="7252" started-at="2014-08-12T21:39:20Z" finished-at="2014-08-12T21:39:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.FirstTest@62725296]" name="verifyCorrectingAddingProduct" duration-ms="3973" started-at="2014-08-12T21:39:27Z" data-provider="CsvDataProvider" finished-at="2014-08-12T21:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=36000, price=7200, product_name=Notebook Dell 5115, quantity=5, product_number=1, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.FirstTest@62725296]" name="verifyCorrectingAddingProduct" duration-ms="2911" started-at="2014-08-12T21:39:31Z" data-provider="CsvDataProvider" finished-at="2014-08-12T21:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=150, price=30, product_name=Cannon, quantity=5, product_number=2, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.FirstTest@62725296]" name="verifyCorrectingAddingProduct" duration-ms="2921" started-at="2014-08-12T21:39:34Z" data-provider="CsvDataProvider" finished-at="2014-08-12T21:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=50000, price=50000, product_name=Mazda, quantity=1, product_number=3, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.FirstTest@62725296]" name="verifyCorrectingAddingProduct" duration-ms="2871" started-at="2014-08-12T21:39:37Z" data-provider="CsvDataProvider" finished-at="2014-08-12T21:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=11, price=1, product_name=Light, quantity=11, product_number=4, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.selenium.atf.tests.FirstTest@62725296]" name="TearDown" is-config="true" duration-ms="140" started-at="2014-08-12T21:39:40Z" finished-at="2014-08-12T21:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.selenium.atf.tests.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

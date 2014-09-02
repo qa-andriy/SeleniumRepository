@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="43" passed="43">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="142823" started-at="2014-09-02T07:17:24Z" finished-at="2014-09-02T07:19:47Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="142823" started-at="2014-09-02T07:17:24Z" finished-at="2014-09-02T07:19:47Z">
+      <class name="com.selenium.atf.tests.Test4">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="SetUp" is-config="true" duration-ms="1666" started-at="2014-09-02T10:18:53Z" finished-at="2014-09-02T10:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2830" started-at="2014-09-02T10:18:55Z" finished-at="2014-09-02T10:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyIsEditModeEnabled()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyIsEditModeEnabled" duration-ms="459" started-at="2014-09-02T10:18:57Z" finished-at="2014-09-02T10:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsEditModeEnabled -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="189" started-at="2014-09-02T10:18:58Z" finished-at="2014-09-02T10:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2529" started-at="2014-09-02T10:18:58Z" finished-at="2014-09-02T10:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="708" started-at="2014-09-02T10:19:01Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=36000, price=7200, product_name=Notebook Dell 5115, quantity=, product_number=1, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="163" started-at="2014-09-02T10:19:01Z" finished-at="2014-09-02T10:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2460" started-at="2014-09-02T10:19:01Z" finished-at="2014-09-02T10:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="629" started-at="2014-09-02T10:19:04Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=, price=, product_name=, quantity=, product_number=2, units=l}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="164" started-at="2014-09-02T10:19:05Z" finished-at="2014-09-02T10:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2504" started-at="2014-09-02T10:19:05Z" finished-at="2014-09-02T10:19:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="634" started-at="2014-09-02T10:19:07Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=50000, price=50000, product_name=, quantity=1, product_number=3, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="162" started-at="2014-09-02T10:19:08Z" finished-at="2014-09-02T10:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2531" started-at="2014-09-02T10:19:08Z" finished-at="2014-09-02T10:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="616" started-at="2014-09-02T10:19:11Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=11, price=, product_name=Light, quantity=11, product_number=4, units=pcs}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="166" started-at="2014-09-02T10:19:11Z" finished-at="2014-09-02T10:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2538" started-at="2014-09-02T10:19:11Z" finished-at="2014-09-02T10:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="639" started-at="2014-09-02T10:19:14Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0, price=0, product_name=Зошит, quantity=0, product_number=5, units=pcs}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="159" started-at="2014-09-02T10:19:15Z" finished-at="2014-09-02T10:19:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2537" started-at="2014-09-02T10:19:15Z" finished-at="2014-09-02T10:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="647" started-at="2014-09-02T10:19:17Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0.01, price=0,1, product_name=C, quantity=0,1, product_number=6, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="161" started-at="2014-09-02T10:19:18Z" finished-at="2014-09-02T10:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2503" started-at="2014-09-02T10:19:18Z" finished-at="2014-09-02T10:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="670" started-at="2014-09-02T10:19:21Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=1, price=-1, product_name=av, quantity=-1, product_number=7, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="158" started-at="2014-09-02T10:19:21Z" finished-at="2014-09-02T10:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2498" started-at="2014-09-02T10:19:21Z" finished-at="2014-09-02T10:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="667" started-at="2014-09-02T10:19:24Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=khhjg, price=hhjg, product_name=nn+, quantity=jhhhg, product_number=8, units=l}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="158" started-at="2014-09-02T10:19:25Z" finished-at="2014-09-02T10:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2473" started-at="2014-09-02T10:19:25Z" finished-at="2014-09-02T10:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesNegative(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="verifyManyAcceptChangesNegative" duration-ms="674" started-at="2014-09-02T10:19:27Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=#%^^, price=#$$%%$%, product_name=gghj, quantity=&())(*&$$, product_number=9, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="chekingSomeAsserts" is-config="true" duration-ms="171" started-at="2014-09-02T10:19:28Z" finished-at="2014-09-02T10:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.selenium.atf.tests.Test4@597b84f9]" name="TearDown" is-config="true" duration-ms="1108" started-at="2014-09-02T10:19:28Z" finished-at="2014-09-02T10:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.selenium.atf.tests.Test4 -->
+      <class name="com.selenium.atf.tests.Test3">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="SetUp" is-config="true" duration-ms="1603" started-at="2014-09-02T10:18:33Z" finished-at="2014-09-02T10:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2845" started-at="2014-09-02T10:18:34Z" finished-at="2014-09-02T10:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyAcceptChangesButtonClick()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="verifyAcceptChangesButtonClick" duration-ms="243" started-at="2014-09-02T10:18:37Z" finished-at="2014-09-02T10:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAcceptChangesButtonClick -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="chekingSomeAsserts" is-config="true" duration-ms="559" started-at="2014-09-02T10:18:37Z" finished-at="2014-09-02T10:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2537" started-at="2014-09-02T10:18:38Z" finished-at="2014-09-02T10:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyCancelChangesButtonClick()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="verifyCancelChangesButtonClick" duration-ms="212" started-at="2014-09-02T10:18:40Z" finished-at="2014-09-02T10:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelChangesButtonClick -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="chekingSomeAsserts" is-config="true" duration-ms="525" started-at="2014-09-02T10:18:41Z" finished-at="2014-09-02T10:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2538" started-at="2014-09-02T10:18:41Z" finished-at="2014-09-02T10:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyEditingAccept_CancelChangesNegative()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="verifyEditingAccept_CancelChangesNegative" duration-ms="730" started-at="2014-09-02T10:18:44Z" finished-at="2014-09-02T10:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditingAccept_CancelChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="chekingSomeAsserts" is-config="true" duration-ms="545" started-at="2014-09-02T10:18:44Z" finished-at="2014-09-02T10:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2500" started-at="2014-09-02T10:18:45Z" finished-at="2014-09-02T10:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyEditingCancelChangesNegative()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="verifyEditingCancelChangesNegative" duration-ms="455" started-at="2014-09-02T10:18:47Z" finished-at="2014-09-02T10:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditingCancelChangesNegative -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="chekingSomeAsserts" is-config="true" duration-ms="524" started-at="2014-09-02T10:18:48Z" finished-at="2014-09-02T10:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2498" started-at="2014-09-02T10:18:48Z" finished-at="2014-09-02T10:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyEditingCancelChangespositive()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="verifyEditingCancelChangespositive" duration-ms="461" started-at="2014-09-02T10:18:51Z" finished-at="2014-09-02T10:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditingCancelChangespositive -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="chekingSomeAsserts" is-config="true" duration-ms="527" started-at="2014-09-02T10:18:51Z" finished-at="2014-09-02T10:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.selenium.atf.tests.Test3@3c572554]" name="TearDown" is-config="true" duration-ms="1111" started-at="2014-09-02T10:18:52Z" finished-at="2014-09-02T10:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.selenium.atf.tests.Test3 -->
+      <class name="com.selenium.atf.tests.Test2">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="SetUp" is-config="true" duration-ms="1289" started-at="2014-09-02T10:18:24Z" finished-at="2014-09-02T10:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="882" started-at="2014-09-02T10:18:25Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=36000, price=7200, product_name=Notebook Dell 5115, quantity=, product_number=1, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="457" started-at="2014-09-02T10:18:26Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=, price=, product_name=, quantity=, product_number=2, units=l}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="493" started-at="2014-09-02T10:18:26Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=50000, price=50000, product_name=, quantity=1, product_number=3, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="444" started-at="2014-09-02T10:18:27Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=11, price=, product_name=Light, quantity=11, product_number=4, units=pcs}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="457" started-at="2014-09-02T10:18:27Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0, price=0, product_name=Зошит, quantity=0, product_number=5, units=pcs}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="500" started-at="2014-09-02T10:18:28Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0.01, price=0,1, product_name=C, quantity=0,1, product_number=6, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="470" started-at="2014-09-02T10:18:28Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=1, price=-1, product_name=av, quantity=-1, product_number=7, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="494" started-at="2014-09-02T10:18:29Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=khhjg, price=hhjg, product_name=nn+, quantity=jhhhg, product_number=8, units=l}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProduct" duration-ms="490" started-at="2014-09-02T10:18:29Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=#%^^, price=#$$%%$%, product_name=gghj, quantity=&())(*&$$, product_number=9, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProduct -->
+        <test-method status="PASS" signature="verifyIncorrectingAddingProductChekingErrors()[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="verifyIncorrectingAddingProductChekingErrors" duration-ms="1638" started-at="2014-09-02T10:18:30Z" finished-at="2014-09-02T10:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncorrectingAddingProductChekingErrors -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.selenium.atf.tests.Test2@22c6bb6c]" name="TearDown" is-config="true" duration-ms="1103" started-at="2014-09-02T10:18:31Z" finished-at="2014-09-02T10:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.selenium.atf.tests.Test2 -->
+      <class name="com.selenium.atf.tests.Test1">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="SetUp" is-config="true" duration-ms="4345" started-at="2014-09-02T10:17:24Z" finished-at="2014-09-02T10:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyCorrectingAddingProduct" duration-ms="9758" started-at="2014-09-02T10:17:28Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0.6, price=0.0001, product_name=Notebook Dell 5115, quantity=6000, product_number=1, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="392" started-at="2014-09-02T10:17:38Z" finished-at="2014-09-02T10:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyCorrectingAddingProduct" duration-ms="2832" started-at="2014-09-02T10:17:38Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=150, price=30, product_name=Cannon 25GT 25UT mts, quantity=5, product_number=2, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="348" started-at="2014-09-02T10:17:41Z" finished-at="2014-09-02T10:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyCorrectingAddingProduct" duration-ms="3021" started-at="2014-09-02T10:17:41Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:17:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=310, price=3.1, product_name=Зошит шкільний новый, quantity=100, product_number=3, units=l}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="325" started-at="2014-09-02T10:17:44Z" finished-at="2014-09-02T10:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyCorrectingAddingProduct" duration-ms="2809" started-at="2014-09-02T10:17:45Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:17:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=11, price=1, product_name=AKT, quantity=11, product_number=4, units=pcs}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="313" started-at="2014-09-02T10:17:48Z" finished-at="2014-09-02T10:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyCorrectingAddingProduct" duration-ms="2897" started-at="2014-09-02T10:17:48Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:17:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0.001, price=0.01, product_name=Ролывдлв %$#@!^&*()_+=, quantity=0.1, product_number=5, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="309" started-at="2014-09-02T10:17:51Z" finished-at="2014-09-02T10:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyCorrectingAddingProduct" duration-ms="2870" started-at="2014-09-02T10:17:51Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:17:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0.0002, price=2, product_name=ooGGKJLKLopppuu, quantity=0.0001, product_number=6, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="304" started-at="2014-09-02T10:17:54Z" finished-at="2014-09-02T10:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyCorrectingAddingProduct(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyCorrectingAddingProduct" duration-ms="2832" started-at="2014-09-02T10:17:54Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=12, price=12, product_name=qweerpuuoppuu+ao, quantity=1, product_number=7, units=l}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingAddingProduct -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="332" started-at="2014-09-02T10:17:57Z" finished-at="2014-09-02T10:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesPositive(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyManyAcceptChangesPositive" duration-ms="3327" started-at="2014-09-02T10:17:57Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0.6, price=0.0001, product_name=Notebook Dell 5115, quantity=6000, product_number=1, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesPositive -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="309" started-at="2014-09-02T10:18:01Z" finished-at="2014-09-02T10:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesPositive(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyManyAcceptChangesPositive" duration-ms="3263" started-at="2014-09-02T10:18:01Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=150, price=30, product_name=Cannon 25GT 25UT mts, quantity=5, product_number=2, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesPositive -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="309" started-at="2014-09-02T10:18:04Z" finished-at="2014-09-02T10:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesPositive(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyManyAcceptChangesPositive" duration-ms="3363" started-at="2014-09-02T10:18:05Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=310, price=3.1, product_name=Зошит шкільний новый, quantity=100, product_number=3, units=l}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesPositive -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="298" started-at="2014-09-02T10:18:08Z" finished-at="2014-09-02T10:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesPositive(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyManyAcceptChangesPositive" duration-ms="3260" started-at="2014-09-02T10:18:08Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=11, price=1, product_name=AKT, quantity=11, product_number=4, units=pcs}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesPositive -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="296" started-at="2014-09-02T10:18:12Z" finished-at="2014-09-02T10:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesPositive(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyManyAcceptChangesPositive" duration-ms="3247" started-at="2014-09-02T10:18:12Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0.001, price=0.01, product_name=Ролывдлв %$#@!^&*()_+=, quantity=0.1, product_number=5, units=kg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesPositive -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="333" started-at="2014-09-02T10:18:15Z" finished-at="2014-09-02T10:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesPositive(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyManyAcceptChangesPositive" duration-ms="3334" started-at="2014-09-02T10:18:15Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=0.0002, price=2, product_name=ooGGKJLKLopppuu, quantity=0.0001, product_number=6, units=m}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesPositive -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="295" started-at="2014-09-02T10:18:19Z" finished-at="2014-09-02T10:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="verifyManyAcceptChangesPositive(java.util.Map)[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="verifyManyAcceptChangesPositive" duration-ms="3314" started-at="2014-09-02T10:18:19Z" data-provider="CsvDataProvider" finished-at="2014-09-02T10:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{total=12, price=12, product_name=qweerpuuoppuu+ao, quantity=1, product_number=7, units=l}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManyAcceptChangesPositive -->
+        <test-method status="PASS" signature="chekingSomeAsserts()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="chekingSomeAsserts" is-config="true" duration-ms="291" started-at="2014-09-02T10:18:22Z" finished-at="2014-09-02T10:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekingSomeAsserts -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.selenium.atf.tests.Test1@577f5229]" name="TearDown" is-config="true" duration-ms="1121" started-at="2014-09-02T10:18:23Z" finished-at="2014-09-02T10:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.selenium.atf.tests.Test1 -->
+      <class name="com.selenium.atf.tests.Test5">
+        <test-method status="PASS" signature="setGlobalBrowser(java.lang.String)[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="setGlobalBrowser" is-config="true" duration-ms="9" started-at="2014-09-02T10:17:24Z" finished-at="2014-09-02T10:17:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setGlobalBrowser -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="SetUp" is-config="true" duration-ms="1684" started-at="2014-09-02T10:19:29Z" finished-at="2014-09-02T10:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2875" started-at="2014-09-02T10:19:31Z" finished-at="2014-09-02T10:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="VerifyManyAcceptChangesNegativeChekingErrors()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="VerifyManyAcceptChangesNegativeChekingErrors" duration-ms="1556" started-at="2014-09-02T10:19:34Z" finished-at="2014-09-02T10:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyManyAcceptChangesNegativeChekingErrors -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2491" started-at="2014-09-02T10:19:35Z" finished-at="2014-09-02T10:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyCorrectingCalculatingTotalPrice()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="verifyCorrectingCalculatingTotalPrice" duration-ms="1640" started-at="2014-09-02T10:19:38Z" finished-at="2014-09-02T10:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectingCalculatingTotalPrice -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2483" started-at="2014-09-02T10:19:39Z" finished-at="2014-09-02T10:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyDeleteProductClick()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="verifyDeleteProductClick" duration-ms="151" started-at="2014-09-02T10:19:42Z" finished-at="2014-09-02T10:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteProductClick -->
+        <test-method status="PASS" signature="addingFirstRowToInvoiceTable()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="addingFirstRowToInvoiceTable" is-config="true" duration-ms="2464" started-at="2014-09-02T10:19:42Z" finished-at="2014-09-02T10:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFirstRowToInvoiceTable -->
+        <test-method status="PASS" signature="verifyDeletingOneProductFromTwo()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="verifyDeletingOneProductFromTwo" duration-ms="981" started-at="2014-09-02T10:19:44Z" finished-at="2014-09-02T10:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeletingOneProductFromTwo -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.selenium.atf.tests.Test5@7df86f75]" name="TearDown" is-config="true" duration-ms="1106" started-at="2014-09-02T10:19:45Z" finished-at="2014-09-02T10:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.selenium.atf.tests.Test5 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
