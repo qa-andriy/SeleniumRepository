@@ -49,6 +49,17 @@ public class Table extends WebComponent<Table> {
 		}
 		return null;
 	}
+	
+	// Get Table EditRow by Number (Using column Number)
+	public Row getTableEditRowByNumber(String number) {
+		List<Row> rows = getEditRows();
+		for (Row row : rows) {
+			if (row.getNumber().equals(number)) {
+				return row;
+			}
+		}
+		return null;
+	}
 
 	// Creating list of Rows in Invoice Table
 	public List<Row> getRows() {

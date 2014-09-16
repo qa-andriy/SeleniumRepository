@@ -4,6 +4,8 @@ import static com.selenium.atf.core.TestHelper.random;
 
 public class TestData {
 	
+	//private static final String PAGE_URL = "file:///C:/Selenium%20Task/html_invoice-master/index.html";
+	
 	// Product 1
 	private static String productNumber1 = "1";  
 	private static String productName1 = "Phone Nokia Lumia 910";
@@ -14,7 +16,7 @@ public class TestData {
 	
 	// Product 2
 	private static String productNumber2 = "2";
-	private static String productName2 = "Potaitos";
+	private static String productName2 = "Potatos";
 	private static String units2 = "m";
 	private static int quantity2 = random();
 	private static int price2 = random();
@@ -23,6 +25,10 @@ public class TestData {
 	private static int totalPriceResult = (quantity1 * price1) + (quantity2 * price2);
 	
 	
+//	  public static String getPageURL() {
+//		    return PAGE_URL;
+//		  }
+	  
 	  public static String getProductNumber1() {
 		    return productNumber1;
 		  }
@@ -74,6 +80,4 @@ public class TestData {
 	  public static int getTotalPriceResult() {
 		    return totalPriceResult;
 		  }
-
-
 }

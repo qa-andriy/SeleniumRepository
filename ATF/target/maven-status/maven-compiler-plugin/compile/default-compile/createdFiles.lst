@@ -1,3 +1,5 @@
+com\selenium\atf\core\YamlParser.class
+com\selenium\atf\core\Configuration.class
 com\selenium\atf\core\web\elements\Row.class
 com\selenium\atf\core\TestHelper.class
 com\selenium\atf\core\DriverMaster$1.class
@@ -13,6 +15,8 @@ com\selenium\atf\core\web\Wait.class
 com\selenium\atf\core\web\Component.class
 com\selenium\atf\core\ScreenshotOnTestFailure.class
 com\selenium\atf\core\DriverMaster.class
+com\selenium\atf\core\Environments.class
+com\selenium\atf\core\Environment.class
 com\selenium\atf\core\web\elements\TextInput.class
 com\selenium\atf\core\TestData.class
 com\selenium\atf\core\CsvDataProvider.class

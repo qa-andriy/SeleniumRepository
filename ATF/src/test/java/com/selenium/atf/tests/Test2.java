@@ -23,15 +23,13 @@ public class Test2 extends BaseTest {
 						testData.get("units"), testData.get("quantity"),
 						testData.get("price"));
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		assertThat("Some of Main fields is not exist/or have error",
 				currentPage.isAvailable());
 
 		// 1. No any Row should be presented in Invoice Table
 		assertThat("Error - Some new Row added to Invoice Table",
-				"0",
-				is(equalTo(Integer.toString(currentPage.getProductsTable()
-						.getRows().size()))));
+				currentPage.getProductsTable().getRows().size(),
+				equalTo(0));
 		
 		// 2. Total Price (from all rows in Total column) should be recalculated to "0"
 		assertThat("Error result in field 'Total Price' in Invoice Table",
@@ -59,7 +57,6 @@ public class Test2 extends BaseTest {
 		// Case1: (Field Main Product Name empty)
 		currentPage.LoadPage().AddNewProduct("", "pcs", "10", "12");
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		assertThat("Some of Main fields is not exist/or have error",
 				currentPage.isAvailable());
 		// 5. Error classes should be presented in html of page.
@@ -71,7 +68,6 @@ public class Test2 extends BaseTest {
 		currentPage.LoadPage().AddNewProduct("Notebook Dell 5151", "pcs", "",
 				"12");
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		assertThat("Some of Main fields is not exist/or have error",
 				currentPage.isAvailable());
 		// 5. Error classes should be presented in html of page.
@@ -83,7 +79,6 @@ public class Test2 extends BaseTest {
 		currentPage.LoadPage().AddNewProduct("Notebook Dell 5151", "pcs", "10",
 				"");
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		assertThat("Some of Main fields is not exist/or have error",
 				currentPage.isAvailable());
 		// 5. Error classes should be presented in html of page.
@@ -94,7 +89,6 @@ public class Test2 extends BaseTest {
 		// Case4: (All Main fields empty)
 		currentPage.LoadPage().AddNewProduct("", "pcs", "", "");
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		assertThat("Some of Main fields is not exist/or have error",
 				currentPage.isAvailable());
 		// 5. Error classes should be presented in html of page.

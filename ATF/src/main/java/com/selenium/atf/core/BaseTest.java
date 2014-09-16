@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import static com.selenium.atf.core.Configuration.setGlobalEnvironment;
 //import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 //import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -19,9 +20,10 @@ public abstract class BaseTest {
 	protected WebDriver driver;
 
 	@BeforeSuite(alwaysRun = true)
-	@Parameters({ "browser" })
-	public void setGlobalBrowser(@Optional("firefox") String browser) {
+	@Parameters({ "browser", "environment" })
+	public void setGlobalBrowser(@Optional("firefox") String browser, @Optional("local") String environment) {
 		setBrowser(browser);
+		setGlobalEnvironment(environment);
 	}
 
 	@BeforeClass(alwaysRun = true)

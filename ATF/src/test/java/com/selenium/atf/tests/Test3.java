@@ -20,10 +20,6 @@ public class Test3 extends BaseTest {
 		currentPage.AddNewProduct(getProductName1(), getUnits1(),
 				Integer.toString(getQuantity1()), Integer.toString(getPrice1()));
 		currentPage.waitUntilAvailable();
-		try {
-			Thread.sleep(2000);
-		} catch (Exception e) {
-		}
 		assertThat("Some of Main fields is not exist/or have error",
 				currentPage.isAvailable());
 	}
@@ -36,9 +32,8 @@ public class Test3 extends BaseTest {
 		currentPage.getProductsTable().getTableRowByNumber("1")
 				.clickEditProductButton();
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		currentPage.getProductsTable()
-				.getTableEditRowById("table-row editable-row")
+				.getTableEditRowByNumber("1")
 				.clickAcceptChangesButton();
 	}
 	
@@ -50,9 +45,8 @@ public class Test3 extends BaseTest {
 		currentPage.getProductsTable().getTableRowByNumber("1")
 				.clickEditProductButton();
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		currentPage.getProductsTable()
-				.getTableEditRowById("table-row editable-row")
+				.getTableEditRowByNumber("1")
 				.clickCancelChangesButton();
 	}
 	
@@ -61,17 +55,15 @@ public class Test3 extends BaseTest {
 	@Test
 	public void verifyEditingCancelChangespositive() {
 		InvoicePage currentPage = new InvoicePage(driver);
-		currentPage.getProductsTable().getTableRowById("table-row")
+		currentPage.getProductsTable().getTableRowByNumber("1")
 				.clickEditProductButton();
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		currentPage
 				.getProductsTable()
-				.getTableEditRowById("table-row editable-row")
+				.getTableEditRowByNumber("1")
 				.EditAndCancelAddedProduct(getProductName2(), getUnits2(),
 						Integer.toString(getQuantity2()), Integer.toString(getPrice2()));
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 	}
 	
 
@@ -79,15 +71,13 @@ public class Test3 extends BaseTest {
 	@Test
 	public void verifyEditingCancelChangesNegative() {
 		InvoicePage currentPage = new InvoicePage(driver);
-		currentPage.getProductsTable().getTableRowById("table-row")
+		currentPage.getProductsTable().getTableRowByNumber("1")
 				.clickEditProductButton();
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		currentPage.getProductsTable()
-				.getTableEditRowById("table-row editable-row")
+				.getTableEditRowByNumber("1")
 				.EditAndCancelAddedProduct("", "kg", "", "");
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 	}
 
 	
@@ -95,20 +85,17 @@ public class Test3 extends BaseTest {
 	@Test
 	public void verifyEditingAccept_CancelChangesNegative() {
 		InvoicePage currentPage = new InvoicePage(driver);
-		currentPage.getProductsTable().getTableRowById("table-row")
+		currentPage.getProductsTable().getTableRowByNumber("1")
 				.clickEditProductButton();
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		currentPage.getProductsTable()
-				.getTableEditRowById("table-row editable-row")
+				.getTableEditRowByNumber("1")
 				.EditAndAcceptAddedProduct("", "kg", "", "");
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 		currentPage.getProductsTable()
-				.getTableEditRowById("table-row editable-row")
+				.getTableEditRowByNumber("1")
 				.EditAndCancelAddedProduct("", "kg", "", "");
 		currentPage.waitUntilAvailable();
-		// try{Thread.sleep(2000);} catch(Exception e){}
 	} 
 	
 
@@ -117,40 +104,39 @@ public class Test3 extends BaseTest {
 		InvoicePage currentPage = new InvoicePage(driver);
 		// 1. No any New Row should be added to Invoice Table
 		assertThat("Error - Some New Row added to Invoice Table",
-				"1",
-				is(equalTo(Integer.toString(currentPage.getProductsTable()
-						.getRows().size()))));
+				currentPage.getProductsTable().getRows().size(),
+				equalTo(1));
 
 		// 2. Text in Row with edited product shouldn't be changed in Invoice Table
 		// 3. Price of edited product shouldn't be changed in Invoice Table,
 		assertThat("Wrong Number in Invoice Table",
 				getProductNumber1(),
 				is(equalTo(currentPage.getProductsTable()
-						.getTableRowById("table-row")
+						.getTableRowByNumber("1")
 						.getNumberFieldTextFromInvoiceTable())));
 		assertThat("Wrong Product Name in Invoice Table",
 				getProductName1(),
 				is(equalTo(currentPage.getProductsTable()
-						.getTableRowById("table-row")
+						.getTableRowByNumber("1")
 						.getProductNameFieldTextFromInvoiceTable())));
 		assertThat("Wrong Units in Invoice Table",
 				getUnits1(),
 				is(equalTo(currentPage.getProductsTable()
-						.getTableRowById("table-row")
+						.getTableRowByNumber("1")
 						.getUnitsFieldTextFromInvoiceTable())));
 		assertThat("Wrong Quantity in Invoice Table",
 				Integer.toString(getQuantity1()), is(equalTo(currentPage
-						.getProductsTable().getTableRowById("table-row")
+						.getProductsTable().getTableRowByNumber("1")
 						.getQuantityFieldTextFromInvoiceTable())));
 		assertThat("Wrong Price in Invoice Table",
 				Integer.toString(getPrice1()),
 				is(equalTo(currentPage.getProductsTable()
-						.getTableRowById("table-row")
+						.getTableRowByNumber("1")
 						.getPriceFieldTextFromInvoiceTable())));
 		assertThat("Wrong Total in Invoice Table",
 				Integer.toString(getTotal1()),
 				is(equalTo(currentPage.getProductsTable()
-						.getTableRowById("table-row")
+						.getTableRowByNumber("1")
 						.getTotalFieldTextFromInvoiceTable())));
 
 		// 4. Total price (from all rows in Total column) should be calculated correctly
@@ -164,17 +150,17 @@ public class Test3 extends BaseTest {
 				currentPage.isAddProductButtonPresents());
 		// - "Edit Product", "Delete Product" should be shown on Page
 		assertThat("Error - Button 'Edit Product' is not shown in Invoice Table",
-				((currentPage.getProductsTable().getTableRowById("table-row")
+				((currentPage.getProductsTable().getTableRowByNumber("1")
 						.isEditProductButtonPresents()) == true));
 		assertThat("Error - Button 'Delete Product' is not shown in Invoice Table",
-				((currentPage.getProductsTable().getTableRowById("table-row")
+				((currentPage.getProductsTable().getTableRowByNumber("1")
 						.isDeleteProductButtonPresents()) == true));
 		// - "Accept Changes" and "Cancel Changes" shouldn't be shown on Page
 		assertThat("Error - Button 'Accept Changes' is shown in Invoice Table",
-				((currentPage.getProductsTable().getTableRowById("table-row")
+				((currentPage.getProductsTable().getTableRowByNumber("1")
 						.isAcceptChangesButtonPresents()) == false));
 		assertThat("Error - Button 'Cancel Changes' is shown in Invoice Table",
-				((currentPage.getProductsTable().getTableRowById("table-row")
+				((currentPage.getProductsTable().getTableRowByNumber("1")
 						.isAcceptChangesButtonPresents()) == false));
 
 		// 6. Fields 'Main Product Name', 'Main Quantity' and 'Main Price' should be empty after adding new product
@@ -198,27 +184,27 @@ public class Test3 extends BaseTest {
 
 		// 8. No any edit classes should be presented in html in Invoice Table
 		assertThat("Error in class of field 'Product Number' in Invoice Table",
-				currentPage.getProductsTable().getTableRowById("table-row")
+				currentPage.getProductsTable().getTableRowByNumber("1")
 						.getTableProductNumberFieldClass(),
 				is(equalTo("tr-cell number")));
 		assertThat("Error in class of field 'Product Name' in Invoice Table",
-				currentPage.getProductsTable().getTableRowById("table-row")
+				currentPage.getProductsTable().getTableRowByNumber("1")
 						.getTableProductNameFieldClass(),
 				is(equalTo("tr-cell product")));
 		assertThat("Error in class of field 'Units' in Invoice Table",
-				currentPage.getProductsTable().getTableRowById("table-row")
+				currentPage.getProductsTable().getTableRowByNumber("1")
 						.getTableUnitsFieldClass(),
 				is(equalTo("tr-cell units")));
 		assertThat("Error in class of field 'Quantity' in Invoice Table",
-				currentPage.getProductsTable().getTableRowById("table-row")
+				currentPage.getProductsTable().getTableRowByNumber("1")
 						.getTableQuantityFieldClass(),
 				is(equalTo("tr-cell quantity")));
 		assertThat("Error in class of field 'Price' in Invoice Table",
-				currentPage.getProductsTable().getTableRowById("table-row")
+				currentPage.getProductsTable().getTableRowByNumber("1")
 						.getTablePriceFieldClass(),
 				is(equalTo("tr-cell price")));
 		assertThat("Error in class of field 'Total' in Invoice Table",
-				currentPage.getProductsTable().getTableRowById("table-row")
+				currentPage.getProductsTable().getTableRowByNumber("1")
 						.getTableTotalFieldClass(),
 				is(equalTo("tr-cell total")));
 	}

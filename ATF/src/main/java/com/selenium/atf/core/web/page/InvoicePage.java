@@ -11,8 +11,8 @@ import com.selenium.atf.core.web.elements.TextInput;
 import com.selenium.atf.core.web.page.InvoicePage;
 
 public class InvoicePage extends WebPage<InvoicePage> {
-
-	private static final String PAGE_URL = "file:///C:/Selenium%20Task/html_invoice-master/index.html";
+	
+	private static final String PAGE_URL = BASE_URL + "/index.html";
 
 	public InvoicePage(WebDriver driver) {
 		super(driver);
